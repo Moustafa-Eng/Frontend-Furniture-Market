@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="text-center">
+
+    <div class="container-fluid bg-fixed">
+
+        <div class="row justify-content-center align-items-center vh-100">
+
+            <div class="col-sm-6 col-md-4">
+
+                <form class="form-login">
+
+                    <i class="fa fa-shopping-bag px-3 login-icon" aria-hidden="true"></i>
+
+                    <h1 class="h3 mb-3 font-weight-normal">login</h1>
+
+                    <label for="inputEmail" class="sr-only">Email address</label>
+
+                    <input type="email" id="inputEmail" class="form-control custom-login" placeholder="Email address" required="" autofocus="">
+
+                    <label for="inputPassword" class="sr-only">Password</label>
+
+                    <input type="password" id="inputPassword" class="form-control custom-login" placeholder="Password" required="">
+
+                    <div class=" mb-4" style="float: left;margin-right : 15px">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="RememberCheck" checked/>
+                        <label class="form-check-label" for="registerCheck">
+                            Remember me
+                        </label>
+                    </div>
+                    
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <a href="#!">Forgot password?</a>
+                    </div>
+
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">login</button>
+
+                    <small style="font-size: 15px;">Do not have account ? <a style="text-decoration: none; font-size:20px" href="signup.html">Create Account</a></small>
+                    
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

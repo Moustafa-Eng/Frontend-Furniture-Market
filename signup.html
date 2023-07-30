@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="text-center">
+
+    <div class="container-fluid bg-fixed">
+
+        <div class="row justify-content-center align-items-center vh-100">
+
+            <div class="col-sm-6 col-md-4">
+
+                <form class="form-login">
+
+                    <i class="fa fa-shopping-bag px-3 login-icon" aria-hidden="true"></i>
+
+                    <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+
+                    <input type="text" id="inputName" class="form-control custom-login" placeholder="Full Name" required="" autofocus="">
+
+                    <input type="email" id="inputUsreName" class="form-control custom-login" placeholder="User Name" required="" >
+
+                    <input type="email" id="inputEmail" class="form-control custom-login" placeholder="Email address" required="">
+
+
+                    <input type="password" id="inputPassword" class="form-control custom-login" placeholder="Password" required="">
+
+                    <input type="repeatpassword" id="confirmPassword" class="form-control custom-login" placeholder="Confirm Password" required="">
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+
+                    <small style="font-size: 15px;">Do you have account ? <a style="text-decoration: none; font-size : 20px" href="login.html">log in</a></small>
+                    
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked/>
+                        <label class="form-check-label" for="registerCheck">
+                            I have read and agree to the terms
+                        </label>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.special{
+    flex-direction: row;
+    font-size: 20px;
+}
+.special li{
+    border: none;
+}
+.special li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.special a:hover{
+    background-color: rgb(206, 196, 196);
+    border-radius: 10px;
+}
+
+.fa-search{
+    position: absolute;
+    top: 33%;
+    left: 90%;
+}
+.custom-h{
+    height: 50px;
+    border-radius: 10px;
+}
+.fill{
+    width:100%;
+    height: 100vh;
+}
+.two-pic{
+    width: 100%;
+    height: 50vh;
+}
+.best{
+    font-weight: 900;
+}
+.red{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.checked {
+    color: orange;
+    padding-left: 10px;
+}
+.price{
+    font-weight: 900;
+    font-size: 25px;
+}
+div h2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+.container h3{
+    font-weight: 900;
+    font-size: 40px;
+}
+.container h4{
+    font-weight: 900;
+    font-size: 30px;
+}
+.shop-now{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.shop-now:hover{
+    background-color: rgb(206, 196, 196);
+    border-radius: 10px;
+}
+.info{
+    position: absolute;
+    flex-direction: column;
+    padding: 10px;
+    top: 40%;
+    color: white;
+}
+.see-all{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.see-all:hover{
+    background-color: rgb(206, 196, 196);
+    border-radius: 10px;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+.py-5{
+    color: white;
+}
+.foot-brand{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.foot-brand i{
+    margin-bottom: 24px;
+}
+footer{
+    color: white;
+}
+.community{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.list-group-custom{
+    list-style: none;
+}
+.list-group-item-custom a{
+    text-decoration: none;
+    color: white;
+}
+.list-group-item-custom{
+    padding-top: 10px;
+}
+.privacy span{
+    padding: 10px;
+}
+
+.card-body:hover {
+    transition: 0.4s;
+    opacity: 0.5;
+}
+/* End Home Page */
+
+/* login and register */
+
+.bg-fixed {
+    background-image: url('../images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.login-icon{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.form-login{
+    max-width: 400px;
+    color: white;
+}
+.custom-login{
+    margin-bottom: 20px;
+}
+.btn{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(206, 196, 196);
+    border-color: rgb(206, 196, 196);
+}
+.vh-100 {
+    height: 100vh;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+ /* End login and register */
