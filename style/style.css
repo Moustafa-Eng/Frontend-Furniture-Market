@@ -17,7 +17,7 @@ body{
 .special li a{
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 5px;
 }
 .special a:hover{
     background-color: rgb(206, 196, 196);
