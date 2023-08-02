@@ -7,21 +7,20 @@ body{
 .navbar-brand{
     font-size: 25px;
 }
-.special{
-    flex-direction: row;
+.navbar-nav{
     font-size: 20px;
 }
-.special li{
-    border: none;
+.nav-item:hover{
+    background-color: rgb(206, 196, 196);
+    border-radius: 10px;
 }
-.special li a{
+.nav-item{
+    margin-right: 10px;
+}
+.nav-link{
     text-decoration: none;
     color: black;
     padding: 5px;
-}
-.special a:hover{
-    background-color: rgb(206, 196, 196);
-    border-radius: 10px;
 }
 
 .fa-search{
@@ -31,7 +30,7 @@ body{
 }
 .custom-h{
     height: 50px;
-    border-radius: 10px;
+    border-radius: 10px !important; 
 }
 .fill{
     width:100%;
